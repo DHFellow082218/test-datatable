@@ -1,0 +1,144 @@
+*
+{
+    margin                          :           0; 
+    padding                         :           0; 
+    box-sizing                      :           border-box;
+}
+
+body 
+{
+    font-family                     :           'Courier New', Courier, monospace;
+}
+
+ul 
+{
+    list-style-type                 :           none;
+}
+
+#header
+{
+    text-align                      :           center;
+    background-color                :           #111; 
+    color                           :           #fff;
+    padding                         :           0.8rem; 
+}
+
+#main 
+{
+    display                          :           flex; 
+    justify-content                  :          center;
+    margin                           :          2rem auto; 
+}
+
+select
+{
+    outline                         :           none; 
+    padding                         :           0.4rem 1.4rem 0.4rem 1rem;
+    border                          :           0;
+    background-color                :           #fff;  
+    position                        :           relative; 
+    text-align                      :           center;
+}
+
+input
+{
+    outline                         :           none; 
+    padding                         :           0.4rem 1.4rem 0.4rem 1rem;
+    border                          :           1px solid #eee;
+    border-radius                   :           4px; 
+    background-color                :           #fff;  
+    position                        :           relative; 
+    text-align                      :           center;
+    transition                      :           border-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.custom-select                  
+{
+    display                         :           flex; 
+    flex-direction                  :           row;
+    position                        :           relative; 
+    cursor                          :           pointer;
+    border                          :           1px solid #eee;
+    border-radius                   :           4px;
+    overflow                        :           hidden;
+    cursor                          :           pointer;
+    transition                      :           border-color 0.5s ease, box-shadow 0.5s ease; 
+}
+
+.custom-select:hover, 
+input:focus
+{
+    border-color                    :           lightblue; 
+    box-shadow                      :           0 0 1px 1px lightblue;
+}
+
+
+.custom-select:hover > .custom-arrow > svg
+{
+    color                           :           lightblue; 
+    transform                       :           rotate(360deg) scale(1.5);
+}
+
+.custom-select > .custom-arrow 
+{
+    position                        :           absolute; 
+    display                         :           flex;
+    align-items                     :           center;
+    justify-content                 :           center; 
+    height                          :           100%; 
+    background-color                :          #fff;
+    top                             :           0; 
+    right                           :           0; 
+    padding                         :           0.5rem;
+    pointer-events                  :           none;
+    transition                      :           transform 0.4s ease, color 0.4s ease; 
+} 
+
+.custom-select > .custom-arrow > svg
+{
+    width                           :           1em; 
+    height                          :           1em;
+    transform                       :           rotate(180deg);
+    transition                      :           transform 0.8s ease;
+} 
+
+.custom-select > .custom-arrow::before,
+.custom-select > .custom-arrow::after
+{
+    content                         :           ''; 
+    position                        :           absolute; 
+    width                           :           0; 
+    height                          :           0; 
+}
+
+.table 
+{
+    width                           :           100%; 
+    border-collapse                 :           collapse;
+    font-size                       :           12px; 
+    overflow                        :           hidden;
+    border-radius                   :           6px;
+    position                        :           relative; 
+}
+
+.table.sticky > thead  
+{
+    position                        :           sticky; 
+    top                             :           0; 
+    left                            :           0; 
+
+}
+.table > thead > tr > th,
+.table > tbody > tr > td  
+{
+    padding                         :           1rem; 
+    text-align                      :           left; 
+}
+
+.table > thead 
+{
+    background-color                :           #115;
+    color                           :           white; 
+}
+
+

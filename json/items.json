@@ -1,0 +1,112 @@
+[
+    {
+        "name"              :       "cabbage", 
+        "price"             :       "23.00", 
+        "stock"             :       "5"      
+    },
+    {
+        "name"              :       "apple", 
+        "price"             :       "16.00", 
+        "stock"             :       "12"       
+    },
+    {
+        "name"              :       "orange", 
+        "price"             :       "19.00", 
+        "stock"             :       "24"       
+    },
+    {
+        "name"              :       "grape", 
+        "price"             :       "39.00", 
+        "stock"             :       "54"       
+    },
+    {
+        "name"              :       "mango", 
+        "price"             :       "49.00", 
+        "stock"             :       "64"       
+    },
+    {
+        "name"              :       "capaya", 
+        "price"             :       "79.00", 
+        "stock"             :       "124"       
+    },
+    {
+        "name"              :       "papaya", 
+        "price"             :       "109.00", 
+        "stock"             :       "92"       
+    },
+    {
+        "name"              :       "star apple", 
+        "price"             :       "19.00", 
+        "stock"             :       "92"       
+    },
+    {
+        "name"              :       "pineapple", 
+        "price"             :       "49.00", 
+        "stock"             :       "39"       
+    },
+    {
+        "name"              :       "bpttle of milk", 
+        "price"             :       "77.00", 
+        "stock"             :       "339"       
+    },
+    {
+        "name"              :       "white cheese", 
+        "price"             :       "230.00", 
+        "stock"             :       "9"       
+    },
+    {
+        "name"              :       "isopropyl alcohol", 
+        "price"             :       "130.00", 
+        "stock"             :       "419"       
+    },
+    {
+        "name"              :       "rubbing alcohol", 
+        "price"             :       "110.00", 
+        "stock"             :       "177"       
+    },
+    {
+        "name"              :       "chicken eggs", 
+        "price"             :       "7.00", 
+        "stock"             :       "3259"       
+    },
+    {
+        "name"              :       "plastic cups", 
+        "price"             :       "4.00", 
+        "stock"             :       "1738"       
+    },
+    {
+        "name"              :       "plastic plates", 
+        "price"             :       "14.00", 
+        "stock"             :       "2177"       
+    },
+    {
+        "name"              :       "plastic spooms", 
+        "price"             :       "1.25", 
+        "stock"             :       "7177"       
+    },
+    {
+        "name"              :       "plastic forks", 
+        "price"             :       "1.25", 
+        "stock"             :       "6177"       
+    },
+    {
+        "name"              :       "sweet cereal", 
+        "price"             :       "163.00", 
+        "stock"             :       "777"       
+    },
+    {
+        "name"              :       "condensed milk", 
+        "price"             :       "80.00", 
+        "stock"             :       "327"       
+    },
+    {
+        "name"              :       "evaporated milk", 
+        "price"             :       "89.00", 
+        "stock"             :       "521"       
+    },
+    {
+        "name"              :       "chocolate milk", 
+        "price"             :       "99.50", 
+        "stock"             :       "1029"       
+    }
+]

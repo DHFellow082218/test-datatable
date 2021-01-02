@@ -1,0 +1,91 @@
+
+.data-table 
+{
+    display                         :           flex; 
+    flex-direction                  :           column;
+    width                           :           100%; 
+    padding                         :           0.5rem; 
+    min-width                       :           500px;
+
+}
+
+.data-table > * 
+{
+    margin                          :           .8rem 0; 
+}
+
+.data-table > .data-table-header 
+{
+    display                         :           flex; 
+    justify-content                 :           space-between;
+}
+
+.data-table > .data-table-header > .data-table-item-show 
+{
+    display                         :           flex; 
+    flex-direction                  :           row;
+    align-items                     :           center;
+    
+}
+
+.data-table > .data-table-header > .data-table-item-show > *
+{
+    margin-right                    :           0.5rem;
+}
+
+.data-table > .data-table-header > .data-table-item-show  select
+{
+    margin-right                    :           0.5rem;
+    width                           :           70px;
+}
+
+.data-table > .data-table-footer  .data-table-page-select 
+{
+    display                         :           flex; 
+    flex-direction                  :           column;
+    justify-content                 :           flex-end;
+}
+
+.data-table > .data-table-footer  .data-table-page-select 
+{
+    display                         :           flex; 
+    flex-direction                  :           row;
+}
+
+.data-table .data-table-footer  .data-table-page-select  > li 
+{
+    padding                         :           0.5rem 1rem; 
+    cursor                          :           pointer; 
+    color                           :           white; 
+    background-color                :           #115;
+    transition                      :           background-color 0.4s ease;
+}
+
+.data-table .data-table-footer  .data-table-page-select  > li:hover, 
+.data-table .data-table-footer  .data-table-page-select  > li.active 
+{
+    background-color                :           #15f;
+}
+
+.data-table .data-table-footer  .data-table-page-select  > .page-previous
+{
+    border-radius                   :           5px  0px 0px 5px;        
+} 
+
+.data-table .data-table-footer  .data-table-page-select  > .page-next
+{
+    border-radius                   :           0px  5px 5px 0px;        
+}
+
+/* .data-table .data-table-footer  .data-table-page-select  > li:not(:last-child)
+{
+    border-right                    :           .5px solid white;          
+}  */
+
+@media screen and (min-width:960px)
+{
+    .data-table 
+    {
+        width                           :           75%; 
+    }
+} 
