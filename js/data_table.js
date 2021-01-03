@@ -120,7 +120,7 @@ export default class DataTable
                 {
                     row.querySelectorAll('td').forEach(cell => 
                         {
-                            if(cell.innerText.toUpperCase().indexOf(search) > -1 && rows.length < this.state['items_per_page'])
+                            if(cell.innerText.toUpperCase().indexOf(search) > -1)
                             {
                                 rows.push(row);
                             }
@@ -139,6 +139,8 @@ export default class DataTable
         //SHOW ITEMS EVENT
         this.table.querySelector('.data-table-item-show select').addEventListener('change', (e)  =>  
             {
+                this.table.querySelector('.data-table-item-search input').value         =       "";
+                this.state['current_page']          =       0; 
                 this.state['items_per_page']        =       e.target.value; 
                 this.setup_pagination();
             }
@@ -147,6 +149,8 @@ export default class DataTable
         //TRAVERSE PAGE EVENT 
         this.table.querySelector('.data-table-footer .data-table-page-select').addEventListener('click', (e)  =>  
             {
+                this.table.querySelector('.data-table-item-search input').value         =       "";
+
                 if(!(e.target.classList.contains('page-item') || e.target.classList.contains('page-previous') || e.target.classList.contains('page-next')))
                 {
                     return false; 
